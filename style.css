@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #1b4332;
+  color: gold;
+}
+body,
+.container {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  border: 2px dotted gold;
+  height: 100%;
+}
+button {
+  margin: 10px;
+}
+#decrement-btn,
+#zero-btn,
+#increment-btn,
+#save-btn {
+  padding: 12px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: wheat;
+  border: 2px solid wheat;
+  border-radius: 10px;
+}
+#increment-btn {
+  background-color: #104911;
+}
+#zero-btn {
+  background-color: #4a4e69;
+}
+#decrement-btn {
+  background-color: brown;
+}
+#save-btn {
+  background-color: #00509d;
+  width: 300px;
+}

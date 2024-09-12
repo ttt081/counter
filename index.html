@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Passenger Counter</title>
+  </head>
+  <body>
+    <h1>Number of passengers:</h1>
+    <h1 id="counter">0</h1>
+
+    <button id="decrement-btn" onclick="decrement()">-</button>
+
+    <button id="zero-btn" onclick="zero()">0</button>
+
+    <button id="increment-btn" onclick="increment()">+</button>
+
+    <br />
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <p>Previous Entries:</p>
+    <p id="save-el"></p>
+    <script src="./index.js"></script>
+  </body>
+</html>
